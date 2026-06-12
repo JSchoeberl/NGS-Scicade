@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install jupyter-book ngsolve mystmd
+          pip install jupyter-book ngsolve mystmd anywidget
       
       - name: Build book
         run: |
