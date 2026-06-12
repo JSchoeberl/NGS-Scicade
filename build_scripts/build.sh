@@ -5,6 +5,7 @@ rm -f unit1/webgui_data*
 cp build_scripts/webgui.py `python -c "import netgen.webgui; print(netgen.webgui.__file__)"`
 python build_scripts/clean_built_notebooks.py unit1/*.ipynb
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace unit1/*.ipynb
+jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.store_widget_state=True --ExecutePreprocessor.timeout=600 ./unit1/modeling.ipynb
 jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.store_widget_state=True --ExecutePreprocessor.timeout=600 ./unit1/elasticity2D.ipynb
 jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.store_widget_state=True --ExecutePreprocessor.timeout=600 ./unit1/linearized_elasticity.ipynb
 jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.store_widget_state=True --ExecutePreprocessor.timeout=600 ./unit1/elasticity3D.ipynb

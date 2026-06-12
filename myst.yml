@@ -10,13 +10,10 @@ project:
     - title: Elasticity
       children:
         - file: unit1/modeling.ipynb
-          children:
-            - file: unit1/elasticity2D.ipynb
+        - file: unit1/elasticity2D.ipynb
         - file: unit1/linearized_elasticity.ipynb
-        - file: unit1/Gallery.ipynb
-          children:
-            - file: unit1/elasticity3D.ipynb
-            - file: unit1/twisted.ipynb
+        - file: unit1/elasticity3D.ipynb
+        - file: unit1/twisted.ipynb
 
 site:
   options:
