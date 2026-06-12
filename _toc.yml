@@ -1,0 +1,97 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: ESI-minicourse.ipynb
+
+
+parts:
+  - caption: Elasticity
+    numbered: true
+    chapters:
+      - file: unit-1.1-Modeling/modeling
+        sections:
+          - file: unit-1.1-Modeling/elasticity2D.ipynb
+      - file: unit-1.1-Modeling/linearized_elasticity          
+      - file: unit-1.1-Modeling/Gallery
+        sections:
+          - file: unit-1.1-Modeling/elasticity3D.ipynb
+          - file: unit-1.1-Modeling/twisted.ipynb            
+          - file: unit-1.1-Modeling/metamaterial.ipynb
+            title: Meta material
+          - file: unit-1.1-Modeling/Isoparametric.ipynb
+          - file: unit-1.1-Modeling/dynamics.ipynb                      
+
+  - caption: Mixed methods
+    numbered: true
+    chapters:
+    - file: unit-1.2-Mixed/mixedmethods.ipynb
+    - file: unit-1.2-Mixed/MixedLaplace.ipynb
+    - file: unit-1.2-Mixed/TDNNS.ipynb
+      sections:      
+        - file: unit-1.2-Mixed/Cooke.ipynb
+        - file: unit-1.2-Mixed/Cooke-hybrid.ipynb
+    - file: unit-1.2-Mixed/SchaeferTurek2d.ipynb
+
+  - caption: Linear plates and shells
+    numbered: true
+    chapters:
+    - file: unit-1.3-plates/derivation_plates_from_elasticity.ipynb
+    - file: unit-1.3-plates/reissner_mindlin_plate_tdnns.ipynb
+    - file: unit-1.3-plates/kirchhoff_love_plate_hhj.ipynb
+    - file: unit-1.3-plates/introducing_shells.ipynb
+
+
+  - caption: Mapping of tensors
+    numbered: true
+    chapters:
+    - file: unit-2.1-mapping/spacehdiv.ipynb
+      sections:      
+        - file: unit-2.1-mapping/tesla-mcs.ipynb
+        - file: unit-2.1-mapping/morphing.ipynb
+        - file: unit-2.1-mapping/SurfaceSchaeferTurek.ipynb
+        - file: unit-2.1-mapping/heavytop.ipynb
+        - file: unit-2.1-mapping/rotor.ipynb
+
+    - file: unit-2.1-mapping/basisfunctions.ipynb
+    - url: https://project.inria.fr/ranpdes/files/2026/03/03_Schoeberl.pdf
+      title: Talk Paris
+    
+  - caption: Preconditioning+Implementation
+    numbered: true
+    chapters:
+    - file: unit-2.2-preconditioning/preconditioning.ipynb
+    - file: unit-2.2-preconditioning/implementing.ipynb
+      title: Implementing FE
+  
+
+  - caption: Nonlinear Solids and Structures
+    numbered: true
+    chapters:
+      - file: unit-2.3-solids_structures/linear_RM_shell_TDNNS.ipynb
+      - file: unit-2.3-solids_structures/nonlinear_shells.ipynb
+      - file: unit-2.3-solids_structures/nonlinear_elasticity.ipynb
+      - file: unit-2.3-solids_structures/fsi_intro.ipynb
+        sections:
+          - file: unit-2.3-solids_structures/fsi_TaylorHood.ipynb
+          - file: unit-2.3-solids_structures/fsi_HDiv.ipynb
+
+  - caption: Extrinsic curvature
+    numbered: true
+    chapters:
+    - file: unit-3.1-extrinsic_curvature/01_ddg_motivation.ipynb
+    - file: unit-3.1-extrinsic_curvature/02_numerical_examples.ipynb
+    - file: unit-3.1-extrinsic_curvature/03_analysis_sketch.ipynb
+
+  - caption: Intrinsic curvature
+    numbered: true
+    chapters:
+    - file: unit-3.2-intrinsic_curvature/01_Gauss_Bonnet.ipynb
+    - file: unit-3.2-intrinsic_curvature/02_riemannian_manifolds.ipynb
+    - file: unit-3.2-intrinsic_curvature/03_regge_metric.ipynb
+    - file: unit-3.2-intrinsic_curvature/04_distributional_gauss_curvature.ipynb
+    - file: unit-3.2-intrinsic_curvature/05_distributional_gauss_curvature_analysis.ipynb
+    - file: unit-3.2-intrinsic_curvature/06_distributional_scalar_curvature.ipynb
+    - file: unit-3.2-intrinsic_curvature/07_distributional_riemann_curvature_tensor.ipynb
+
+
