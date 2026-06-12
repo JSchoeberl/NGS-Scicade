@@ -12,4 +12,3 @@ jupyter book build --html
 python build_scripts/copy_webgui_data.py --source unit1 --site public
 cp unit1/webgui_data* _build/html/unit1/
 python build_scripts/clean_built_notebooks.py _build/html/build/*.ipynb
-python -m http.server -d _build/html
