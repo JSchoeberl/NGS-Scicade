@@ -4,7 +4,7 @@ project:
   authors:
     - name: Joachim Schöberl
   copyright: '2026'
-  github: JSchoeberl/ESI-Elasticity-Geometry-NGSolve
+  github: JSchoeberl/NGS-Scicade
   toc:
     - file: SciCADE.ipynb
     - title: Elasticity
