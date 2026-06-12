@@ -1,0 +1,48 @@
+
+    .webgui-widget {
+        padding: 0px 2px;
+    }
+    .webgui_container { position: relative; }
+    .webgui_container .image { width: 100%; display: block; }
+    .webgui_overlay {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        cursor: pointer;
+    }
+    .webgui_tooltip .webgui_tooltiptext {
+        visibility: hidden;
+        background-color: rgba(85, 85, 85, 0.9); color: #fff;
+        text-align: center; border-radius: 6px; padding: 5px 10px;
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); white-space: nowrap;
+    }
+    .webgui_tooltip:hover .webgui_tooltiptext { visibility: visible; }
+
+    .label3d {
+      -moz-user-select: none;
+      -ms-user-select:none;
+      -o-user-select:none;
+      -webkit-user-select: none;
+      display:block;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      user-select:none;
+      z-index: 1;
+    }
+
+    .tooltiptext {
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+
+
+    
