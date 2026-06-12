@@ -24,7 +24,7 @@ jobs:
       
       - name: Build book
         run: |
-          jupyter book build --html .
+          myst build --html
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
