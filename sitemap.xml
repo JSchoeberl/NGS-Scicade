@@ -22,13 +22,4 @@
   <url>
     <loc>http://localhost:3000/unit1/twisted</loc>
   </url>
-  <url>
-    <loc>http://localhost:3000/unit1/metamaterial</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/unit1/isoparametric</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/unit1/dynamics</loc>
-  </url>
 </urlset>
