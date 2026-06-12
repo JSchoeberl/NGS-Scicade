@@ -26,6 +26,7 @@ jobs:
         run: |
           pwd
           ls
+          export BASE_URL="/NGS-Scicade/"
           jupyter book build --html
           ls -Rl
       
