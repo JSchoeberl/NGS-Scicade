@@ -1,0 +1,28 @@
+version: 1
+project:
+  title: ESI mini-course
+  authors:
+    - name: M. Neunteufel
+    - name: J. Schöberl
+  copyright: '2026'
+  github: JSchoeberl/ESI-Elasticity-Geometry-NGSolve
+  toc:
+    - file: ESI-minicourse.ipynb
+    - title: Elasticity
+      children:
+        - file: unit1/modeling.ipynb
+          children:
+            - file: unit1/elasticity2D.ipynb
+        - file: unit1/linearized_elasticity.ipynb
+        - file: unit1/Gallery.ipynb
+          children:
+            - file: unit1/elasticity3D.ipynb
+            - file: unit1/twisted.ipynb
+            - file: unit1/metamaterial.ipynb
+              title: Meta material
+            - file: unit1/Isoparametric.ipynb
+            - file: unit1/dynamics.ipynb
+site:
+  options:
+    folders: true
+  template: book-theme
