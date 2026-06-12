@@ -17,10 +17,7 @@ project:
           children:
             - file: unit1/elasticity3D.ipynb
             - file: unit1/twisted.ipynb
-            - file: unit1/metamaterial.ipynb
-              title: Meta material
-            - file: unit1/Isoparametric.ipynb
-            - file: unit1/dynamics.ipynb
+
 site:
   options:
     folders: true
