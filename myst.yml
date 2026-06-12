@@ -7,13 +7,20 @@ project:
   github: JSchoeberl/NGS-Scicade
   toc:
     - file: SciCADE.ipynb
+
     - title: Elasticity
       children:
         - file: unit1/modeling.ipynb
+          title: Modeling
         - file: unit1/elasticity2D.ipynb
+          title: Solving Nonlinear Elasticity
         - file: unit1/linearized_elasticity.ipynb
+          title: Linearized Elasticity
         - file: unit1/elasticity3D.ipynb
+          title: 3D Elasticity
         - file: unit1/twisted.ipynb
+          title: Twisted Bar
+
 
 site:
   options:
