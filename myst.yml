@@ -1,13 +1,12 @@
 version: 1
 project:
-  title: ESI mini-course
+  title: Solving PDEs with FEM and NGSolve
   authors:
-    - name: M. Neunteufel
-    - name: J. Schöberl
+    - name: Joachim Schöberl
   copyright: '2026'
   github: JSchoeberl/ESI-Elasticity-Geometry-NGSolve
   toc:
-    - file: ESI-minicourse.ipynb
+    - file: SciCADE.ipynb
     - title: Elasticity
       children:
         - file: unit1/modeling.ipynb

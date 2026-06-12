@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.13'
+          python-version: '3.14'
       
       - name: Install dependencies
         run: |
@@ -24,11 +24,8 @@ jobs:
       
       - name: Build book
         run: |
-          pwd
-          ls
           export BASE_URL="/NGS-Scicade/"
           jupyter book build --html
-          ls -Rl
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
